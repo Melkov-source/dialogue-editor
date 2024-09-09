@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML xmlns:engine="UnityEngine.UIElements" xmlns="UnityEditor.UIElements"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="UnityEditor.UIElements file:/D:/Projects/history-game/history/UIElementsSchema/UnityEditor.UIElements.xsd">
+    <engine:VisualElement class="header">
+        <engine:VisualElement class="header-title-group">
+            <engine:Label class="title-label" text="Header"/>
+        </engine:VisualElement>
+        <engine:VisualElement class="header-button-group">
+            <engine:Button class="header-close-button" text="X"/>
+            <engine:Button class="header-pin-button" text="#"/>
+        </engine:VisualElement>
+       
+    </engine:VisualElement>
+</engine:UXML>

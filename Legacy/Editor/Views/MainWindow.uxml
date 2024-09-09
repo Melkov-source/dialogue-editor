@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML xmlns:engine="UnityEngine.UIElements" xmlns="UnityEditor.UIElements"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="UnityEditor.UIElements file:/D:/Projects/history-game/history/UIElementsSchema/UnityEditor.UIElements.xsd">
+
+    <engine:Template name="header-template" src="./Elements/HeaderTemplate.uxml"/>
+
+    <engine:VisualElement name="container" class="root">
+        
+        <engine:VisualElement class="menu">
+            <engine:VisualElement class="menu-left-group"/>
+            <engine:VisualElement class="menu-right-group"/>
+        </engine:VisualElement>
+
+        <engine:TwoPaneSplitView fixed-pane-index="1" fixed-pane-initial-dimension="300" class="container">
+            
+            <engine:TwoPaneSplitView fixed-pane-initial-dimension="300">
+                
+                <engine:VisualElement class="explorer">
+                    <engine:Instance template="header-template"/>
+                    <engine:ScrollView class="explorer-scroll-view"/>
+                </engine:VisualElement>
+
+                <engine:VisualElement class="scene">
+                    <engine:ScrollView mode="Horizontal" horizontal-scroller-visibility="Hidden" class="scene-tab-menu"/>
+                    <engine:VisualElement class="scene-content"/>
+                </engine:VisualElement>
+                
+            </engine:TwoPaneSplitView>
+
+            <engine:VisualElement class="properties">
+                <engine:Instance template="header-template"/>
+                <engine:VisualElement class="properties-content">
+                </engine:VisualElement>
+            </engine:VisualElement>
+            
+        </engine:TwoPaneSplitView>
+
+        <engine:VisualElement class="footer">
+            <engine:Label text="v0.0.1"/>
+        </engine:VisualElement>
+        
+    </engine:VisualElement>
+    
+</engine:UXML>

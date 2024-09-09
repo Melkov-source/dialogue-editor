@@ -1,0 +1,80 @@
+﻿.dialog-node {
+    height: auto;
+
+    width: 100%;
+    
+    margin: 5px 0 0 0;
+
+    flex-direction: column;
+}
+
+.header {
+    height: 20px;
+    
+    flex-direction: row;
+    align-items: center;
+    
+    background-color: rgba(255, 255, 255, 0.09);
+}
+
+.header:hover {
+    background-color: rgba(51, 139, 255, 0.09);
+    border-left-width: 3px;
+    border-color: #64d8ed;
+    padding-left: 5px;
+}
+
+.select {
+    background-color: rgba(51, 139, 255, 0.09);
+    border-left-width: 5px;
+    border-color: #b14af6;
+    padding-left: 5px;
+}
+
+.select:hover {
+    background-color: rgba(51, 139, 255, 0.09);
+    border-left-width: 5px;
+    border-color: #b14af6;
+    padding-left: 5px;
+}
+
+.foldout-button {
+    position: absolute;
+    left: -30px;
+    
+    height: 20px;
+    width: 20px;
+    
+    background-color: rgba(0,0,0,0);
+    border-width: 0;
+    border-radius: 0;
+    
+    -unity-background-image-tint-color: cornflowerblue;
+}
+
+
+.icon-element {
+    height: 18px;
+    width: 18px;
+    
+    flex-shrink: 0;
+}
+
+.child-name {
+    flex-shrink: 1;
+    
+    -unity-text-align: middle-left;
+    -unity-font-style: bold;
+    
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -unity-text-overflow-position: end;
+}
+
+
+.content {
+    height: auto;
+    margin-left: 30px;
+    
+    background-color: rgba(0, 0, 0, 0.06);
+}

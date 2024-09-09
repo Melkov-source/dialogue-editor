@@ -1,0 +1,87 @@
+﻿.root {
+    flex-grow: 1;
+    flex-shrink: 0;
+
+    height: 100%;
+    width: 100%;
+
+    flex-direction: column;
+
+    background-color: rgba(43, 43, 43, 0.2);
+}
+
+#unity-content-container {
+    flex-grow: 1;
+    flex-shrink: 0;
+    
+    width: 100%;
+    height: auto;
+    
+    background-color: #2B2B2B;
+    
+    flex-direction: row;
+    
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+    overflow: visible;
+}
+
+.search-field {
+    width: 99.2%;
+}
+
+.unity-scroller{
+    position: absolute;
+    right: 0;
+    
+    height: 100%;
+}
+
+.cell-grid-scroll-view {
+    flex-grow: 1;
+    height: 100%;
+    width: 100%;
+    
+    padding: 5px;
+}
+
+.cell-grid-scroll-view .cell {
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 103px;
+    height: 120px;
+    margin: 5px;
+    
+    border-width: 1px;
+    border-color: black;
+}
+
+.cell .icon {
+    width: 100px;
+    height: 100px;
+}
+
+.cell-grid-scroll-view .select {
+    border-width: 1px;
+    border-color: cornflowerblue;
+}
+
+.cell .name-label {
+    color: white;
+    
+    flex-grow: 1;
+    flex-shrink: 0;
+    
+    height: 20px;
+    
+    -unity-text-align: middle-center;
+    -unity-font-style: bold;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -unity-text-overflow-position: end;
+    
+    background-color: darkslategray;
+}

@@ -1,0 +1,9 @@
+﻿<engine:UXML xmlns:engine="UnityEngine.UIElements" xmlns="UnityEditor.UIElements"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="UnityEditor.UIElements file:/D:/Projects/history-game/history/UIElementsSchema/UnityEditor.UIElements.xsd">
+
+    <engine:VisualElement class="parameter-container">
+        <engine:TextField label="Message:" class="message-text-field"/>
+    </engine:VisualElement>
+
+</engine:UXML>

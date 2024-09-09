@@ -1,0 +1,61 @@
+﻿.header {
+    flex-direction: row;
+    flex-shrink: 0;
+
+    height: 20px;
+
+    background-color: dimgray;
+}
+
+.header .header-title-group {
+    flex-direction: row;
+
+    flex-grow: 1;
+
+    width: 50%;
+    height: 100%;
+}
+
+.header .header-button-group {
+    flex-direction: row-reverse;
+    flex-grow: 1;
+
+    width: 50%;
+    height: 100%;
+}
+
+.header .header-title-group Label {
+    flex-grow: 1;
+    -unity-text-align: middle-left;
+
+    color: white;
+
+    margin-left: 5px;
+}
+
+.header .header-button-group Button {
+    border-radius: 0;
+    border-width: 0;
+    padding: 0 0 0 0;
+    margin: 2px 3px 2px 2px;
+
+    height: 15px;
+    width: 15px;
+}
+
+.header .header-pin-button {
+    background-color: gold;
+}
+
+.header .header-close-button {
+    background-color: red;
+}
+
+.header .header-button-group Button:hover {
+    background-color: chocolate;
+}
+
+.header Button {
+    color: black;
+    -unity-font-style: bold;
+}

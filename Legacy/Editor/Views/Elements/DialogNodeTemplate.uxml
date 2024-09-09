@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML xmlns:engine="UnityEngine.UIElements" xmlns="UnityEditor.UIElements"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="UnityEditor.UIElements file:/D:/Projects/history-game/history/UIElementsSchema/UnityEditor.UIElements.xsd">
+
+    <engine:VisualElement class="dialog-node">
+        <engine:Button class="foldout-button"/>
+        <engine:VisualElement class="header">
+            <engine:VisualElement class="icon-element"/>
+            <engine:Label class="child-name"/>
+           <!-- <engine:TextField class="rename-text-field"/>-->
+        </engine:VisualElement>
+        <engine:VisualElement class="content">
+            
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

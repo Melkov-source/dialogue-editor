@@ -1,0 +1,11 @@
+﻿<engine:UXML xmlns:engine="UnityEngine.UIElements" xmlns="UnityEditor.UIElements"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="UnityEditor.UIElements file:/D:/Projects/history-game/history/UIElementsSchema/UnityEditor.UIElements.xsd">
+    
+    <engine:Template name="sprite-field-template" src="./Elements/SpriteField.uxml"/>
+    
+    <engine:VisualElement class="container">
+        <engine:ScrollView horizontal-scroller-visibility="Hidden" class="blackboard-scroll-view"/>
+    </engine:VisualElement>
+    
+</engine:UXML>

@@ -1,0 +1,16 @@
+﻿<engine:UXML xmlns:engine="UnityEngine.UIElements" xmlns="UnityEditor.UIElements"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="UnityEditor.UIElements file:/D:/Projects/history-game/history/UIElementsSchema/UnityEditor.UIElements.xsd">
+
+    <engine:VisualElement class="container">
+        <engine:Label text="Parameters for Debug.Log" class="tittle-label"/>
+
+        <engine:VisualElement class="content"/>
+
+        <engine:VisualElement class="footer">
+            <engine:Button text="OK" class="button button-ok"/>
+            <engine:Button text="Back" class="button button-back"/>
+        </engine:VisualElement>
+    </engine:VisualElement>
+
+</engine:UXML>

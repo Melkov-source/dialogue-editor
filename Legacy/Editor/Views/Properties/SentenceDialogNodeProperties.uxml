@@ -1,0 +1,36 @@
+﻿<engine:UXML xmlns:engine="UnityEngine.UIElements" xmlns="UnityEditor.UIElements"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="UnityEditor.UIElements file:/D:/Projects/history-game/history/UIElementsSchema/UnityEditor.UIElements.xsd">
+    
+    <engine:VisualElement class="container">
+        <engine:VisualElement class="characters-group">
+            <engine:VisualElement class="character-item speaker-group">
+                <engine:DropdownField label="Speaker:" class="speaker sentence-character-speaker-dropdown"/>
+                <engine:DropdownField label="Speaker Side:" class="speaker sentence-side-speaker-dropdown"/>
+            </engine:VisualElement>
+          
+            <engine:VisualElement class="character-item listener-group">
+                <engine:DropdownField label="Listener:" class="listener sentence-character-listener-dropdown"/>
+                <engine:DropdownField label="Listener Side:" class="listener sentence-side-listener-dropdown"/>
+            </engine:VisualElement>
+        </engine:VisualElement>
+        
+        
+        <engine:TextField label="Sentence:" multiline="true" class="sentence-text-field"/>
+
+        <engine:VisualElement class="cc-container conditions-container">
+            <engine:Label text="Conditions:">
+                <engine:Button text="+" class="cc-create-button button-create-new"/>
+            </engine:Label>
+            <engine:ScrollView horizontal-scroller-visibility="Hidden" class="cc-scroll-view container-scroll-view"/>
+        </engine:VisualElement>
+        
+        <engine:VisualElement class="cc-container actions-container">
+            <engine:Label text="Actions:">
+                <engine:Button text="+" class="cc-create-button button-create-new"/>
+            </engine:Label>
+            <engine:ScrollView horizontal-scroller-visibility="Hidden" class="cc-scroll-view container-scroll-view"/>
+        </engine:VisualElement>
+    </engine:VisualElement>
+    
+</engine:UXML>

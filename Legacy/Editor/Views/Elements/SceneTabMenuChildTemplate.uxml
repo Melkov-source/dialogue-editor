@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML xmlns:engine="UnityEngine.UIElements" xmlns="UnityEditor.UIElements"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="UnityEditor.UIElements file:/D:/Projects/history-game/history/UIElementsSchema/UnityEditor.UIElements.xsd">
+    <engine:VisualElement class="scene-tab-menu-child">
+        <engine:Label class="name-label"/>
+        <engine:Button text="X" class="close-button"/>
+    </engine:VisualElement>
+</engine:UXML>

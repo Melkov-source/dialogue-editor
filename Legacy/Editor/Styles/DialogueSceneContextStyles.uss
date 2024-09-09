@@ -1,0 +1,48 @@
+﻿.dialogue-scene-context {
+    flex-grow: 1;
+    flex-shrink: 0;
+    
+    height: 100%; 
+    width: auto;
+    
+    margin-left: 10px;
+}
+
+.scroll-view-content {
+    flex-grow: 1;
+    width: auto;
+    
+    background-color: rgba(0, 0, 0, 0.06);
+}
+
+.dialog-controls {
+    flex-direction: row;
+    
+    background-color: #3c3c3c;
+    
+    padding: 2px;
+}
+
+
+.dialog-controls Toggle {
+    margin: 0;
+
+    color: white;
+    -unity-text-align: middle-right;
+    
+    padding: 2px;
+
+    background-color: dimgrey;
+
+    margin-right: 2px;
+}
+
+Toggle Label {
+    min-width: 0px;
+    width: auto;
+}
+
+.menu Toggle:hover {
+    background-color: #626262;
+    -unity-font-style: bold;
+}

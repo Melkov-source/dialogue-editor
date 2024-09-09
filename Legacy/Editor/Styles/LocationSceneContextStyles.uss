@@ -1,0 +1,24 @@
+﻿.container {
+    flex-grow: 1;
+
+    height: auto;
+    width: 100%;
+
+    margin: 5px;
+
+    flex-direction: column;
+
+    background-color: #484747;
+}
+
+.sprite-object-field {
+    height: 100px;
+    width: 100px;
+
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+TextField {
+    margin-right: 10px;
+}

@@ -1,0 +1,12 @@
+﻿<engine:UXML xmlns:engine="UnityEngine.UIElements" xmlns="UnityEditor.UIElements"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="UnityEditor.UIElements file:/D:/Projects/history-game/history/UIElementsSchema/UnityEditor.UIElements.xsd">
+
+    <engine:VisualElement class="dialogue-scene-context">
+        <engine:VisualElement class="dialog-controls">
+            <engine:Toggle label="Character" class="dialog-character-toggle"/>
+            <engine:Toggle label="Side" class="dialog-side-toggle"/>
+        </engine:VisualElement>
+        <engine:ScrollView mode="Vertical" horizontal-scroller-visibility="Hidden" class="scroll-view-content"/>
+    </engine:VisualElement>
+</engine:UXML>

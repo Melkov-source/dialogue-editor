@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML xmlns:engine="UnityEngine.UIElements" xmlns="UnityEditor.UIElements"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="UnityEditor.UIElements file:/D:/Projects/history-game/history/UIElementsSchema/UnityEditor.UIElements.xsd">
+
+    <engine:Style src="../Styles/BrowserWindowStyles.uss"/> 
+    
+    <engine:VisualElement name="container" class="root vertical-group">
+        <engine:VisualElement class="header horizontal-group">
+            <engine:Label text="Pick an object to edit the condition" class="title-label"/>
+            <ToolbarSearchField class="search-field"/>
+        </engine:VisualElement>
+        
+        <engine:ScrollView class="scroll-view grid">
+            <engine:VisualElement class="browser-child cell">
+                <engine:VisualElement class="icon"/>
+                <engine:Label text="System" class="name"/>
+            </engine:VisualElement>
+
+            <engine:VisualElement class="browser-child cell">
+                <engine:VisualElement class="icon"/>
+                <engine:Label text="System" class="name"/>
+            </engine:VisualElement>
+
+            <engine:VisualElement class="browser-child cell">
+                <engine:VisualElement class="icon"/>
+                <engine:Label text="System" class="name"/>
+            </engine:VisualElement>
+
+            <engine:VisualElement class="browser-child cell">
+                <engine:VisualElement class="icon"/>
+                <engine:Label text="System" class="name"/>
+            </engine:VisualElement>
+
+            <engine:VisualElement class="browser-child cell">
+                <engine:VisualElement class="icon"/>
+                <engine:Label text="System" class="name"/>
+            </engine:VisualElement>
+
+            <engine:VisualElement class="browser-child cell">
+                <engine:VisualElement class="icon"/>
+                <engine:Label text="System" class="name"/>
+            </engine:VisualElement>
+
+            <engine:VisualElement class="browser-child cell">
+                <engine:VisualElement class="icon"/>
+                <engine:Label text="System" class="name"/>
+            </engine:VisualElement>
+        </engine:ScrollView>
+        
+        <engine:ScrollView horizontal-scroller-visibility="Hidden" class="scroll-view vertical-group category-list"/>
+        
+        <engine:VisualElement class="footer reverse-horizontal-group">
+            <engine:Button text="Next" class="button button-next"/>
+        </engine:VisualElement>
+    </engine:VisualElement>
+    
+</engine:UXML>
